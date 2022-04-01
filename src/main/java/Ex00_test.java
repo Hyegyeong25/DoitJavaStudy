@@ -24,12 +24,10 @@ public class Ex00_test {
                     hap %= 10; //1의자리
                 }
                 int newNum = (one*10)+hap;
-                //System.out.println((one*10)+"+"+hap);
                 if(newNum == n){
                     break;
                 } else {
                     num = newNum;
-                    //System.out.println(num);
                     cnt++;
                 }
             }
