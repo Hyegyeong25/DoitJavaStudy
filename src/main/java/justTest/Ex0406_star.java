@@ -4,7 +4,19 @@ import java.util.Scanner;
 
 public class Ex0406_star {
     public static void main(String[] args) {
+/*
 
+ *
+ **
+ ***
+ ****
+ *****
+ ****
+ ***
+ **
+ *
+
+ */
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt(); // 회전 전체
         int k = 0; //*찍기
