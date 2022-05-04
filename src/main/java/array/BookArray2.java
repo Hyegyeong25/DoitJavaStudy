@@ -10,7 +10,6 @@ public class BookArray2 {
         library[3] = new Book("토지", "박경리");
         library[4] = new Book("어린왕자", "생텍쥐페리");
 
-
         for(int i = 0; i < library.length; i++){
             library[i].showBookInfo();
         }
